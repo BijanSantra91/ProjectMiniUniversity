@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.example.bijan.projectminiuniversity.FragThree">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75"
+        android:gravity="center"
+        android:text="Available Courses"
+        android:textColor="#212F3D"
+        android:textStyle="bold"
+        android:id="@+id/textview1"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp"
+            >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_school_black_48dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:background="@drawable/sides"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:text="Enter MTECH Details"
+                android:layout_marginRight="6dp"
+                android:id="@+id/butt1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_create_black_48dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:background="@drawable/sides"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:text="Enter BTECH Details"
+                android:layout_marginRight="6dp"
+                android:id="@+id/butt2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_brush_black_48dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:background="@drawable/sides"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:text="Enter MCA Details"
+                android:layout_marginRight="6dp"
+                android:id="@+id/butt3"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="6dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_colorize_black_48dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:background="@drawable/sides"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:text="Enter BCA Details"
+                android:layout_marginRight="6dp"
+                android:id="@+id/butt4"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/sides"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:id="@+id/butt5"
+            android:text="Sync details from : Google Server"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/side"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="6dp"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_unarchive_48pt_3x"
+                android:gravity="center"
+                android:id="@+id/butt6"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="match_parent"
+                android:background="#000"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_search_3x"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/butt7"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="match_parent"
+                android:background="#000"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_delete_3x"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/butt8"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
